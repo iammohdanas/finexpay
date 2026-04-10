@@ -1,0 +1,1745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Finexpey - Payments Make Easy</title>
+    <meta name="description" content="Industry's First EMI Auto Solutions Recovery System">
+    <meta name="keywords" content="Finexpey, EMI Auto Solutions, Mobile Lock System, Retailer Protection">
+
+    <link href="assets/img/logo_finex.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link href="assets/css/main.css" rel="stylesheet">
+    <style>.hero-slide {
+  height: 440px; /* same as your old hero */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Optional dark overlay for better readability */
+.hero-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.premium-form {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background: #f7f9fc;
+  border-radius: 12px;
+  padding: 10px 12px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+
+.input-box:focus-within {
+  border-color: #0ea5e9;
+  background: #fff;
+}
+
+.input-box i {
+  margin-right: 10px;
+  color: #888;
+}
+
+.input-box input,
+.input-box textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 14px;
+}
+
+.textarea-box {
+  align-items: flex-start;
+}
+
+.form-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-submit {
+  background: linear-gradient(135deg, #0a9bdf, #0ea5e9);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(79,70,229,0.4);
+}
+
+.status span {
+  display: none;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+}
+
+.secure {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .full-width {
+    grid-column: span 1;
+  }
+}
+
+</style>
+
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container position-relative d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+                <h1 class="sitename">Finexpey</h1><span>.</span>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Products</a></li>
+                    <li><a href="#portfolio">Benefits</a></li>
+                    <li><a href="#team">Partners</a></li>
+                    <!-- <li class="dropdown"><a href="#"><span>Resources</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Retailer Guide</a></li>
+                            <li class="dropdown"><a href="#"><span>Support</span> <i
+                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Setup 4.0 Plus</a></li>
+                                    <li><a href="#">Setup 5.0 Plus</a></li>
+                                    <li><a href="#">Password Reset</a></li>
+                                    <li><a href="#">Video Tutorials</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">App Updates</a></li>
+                            <li><a href="#">API Documentation</a></li>
+                            <li><a href="#">Compliance</a></li>
+                        </ul>
+                    </li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="#about">Become a Partner</a>
+
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="hero-image" class="hero section p-0">
+
+  <div class="hero-slider swiper init-swiper">
+
+    <script type="application/json" class="swiper-config">
+      {
+        "loop": true,
+        "speed": 1000,
+        "autoplay": {
+          "delay": 4000
+        },
+        "effect": "fade",
+        "fadeEffect": {
+          "crossFade": true
+        }
+      }
+    </script>
+
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="hero-slide d-flex align-items-center"
+             style="background-image: url('assets/img/Gemini_Generated2.png');">
+          <div class="container text-white">
+            <div class="hero-content">
+              <h1 class="hero-title">Lock Bouncers. <br> Rock Your Business 🚀</h1>
+              <p class="hero-subtitle">Smart EMI protection system for zero risk & maximum profit.</p>
+              <a href="#services" class="btn btn-primary btn-lg mt-3">Explore Products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="hero-slide d-flex align-items-center"
+             style="background-image: url('assets/img/hero/hero-2.jpg');">
+          <div class="container text-white">
+            <div class="hero-content">
+              <h1 class="hero-title">100% EMI Recovery</h1>
+              <p class="hero-subtitle">Auto-lock system ensures every payment is secured.</p>
+              <a href="#contact" class="btn btn-warning btn-lg mt-3">Become Partner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="hero-slide d-flex align-items-center"
+             style="background-image: url('assets/img/hero/hero-3.jpg');">
+          <div class="container text-white">
+            <div class="hero-content">
+              <h1 class="hero-title">Works Even Offline</h1>
+              <p class="hero-subtitle">No SIM. No Internet. Full Control.</p>
+              <a href="#about" class="btn btn-light btn-lg mt-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+
+  </div>
+
+</section>
+
+        <section id="hero" class="hero section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                        <div class="hero-content">
+                            <div class="hero-tag" data-aos="fade-up" data-aos-delay="250">
+                                <span class="tag-dot"></span>
+                                <span class="tag-text">Industry's First EMI Auto Solutions</span>
+                            </div>
+                            <h1 class="hero-headline" data-aos="fade-up" data-aos-delay="300">Bouncers Ko Lock Karo –
+                                Business Ko Rock Karo!</h1>
+                            <p class="hero-text" data-aos="fade-up" data-aos-delay="350">Protect customer phones and
+                                prevent EMI defaults. Be a Finexpey partner to earn more and risk less. Bigger
+                                innovation is here—smart technology for your peace of mind.</p>
+                            <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                                <a href="#services" class="cta-button">
+                                    <span>Explore Products</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox cta-link"
+                                    data-gallery="hero-video">
+                                    <i class="bi bi-play-circle"></i>
+                                    <span>Watch Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                        <div class="stats-grid">
+                            <div class="stat-card stat-card-primary" data-aos="zoom-in" data-aos-delay="350">
+                                <div class="stat-icon-wrap">
+                                    <i class="bi bi-rocket-takeoff"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-value">100%</span>
+                                    <span class="stat-title">Compatible Lenders</span>
+                                </div>
+                            </div>
+                            <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="stat-icon-wrap">
+                                    <i class="bi bi-shield-lock"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-value">24/7</span>
+                                    <span class="stat-title">Device Control</span>
+                                </div>
+                            </div>
+                            <div class="stat-card" data-aos="zoom-in" data-aos-delay="450">
+                                <div class="stat-icon-wrap">
+                                    <i class="bi bi-wifi-off"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-value">0</span>
+                                    <span class="stat-title">Internet Required</span>
+                                </div>
+                            </div>
+                            <div class="stat-card stat-card-accent" data-aos="zoom-in" data-aos-delay="500">
+                                <div class="stat-icon-wrap">
+                                    <i class="bi bi-graph-up-arrow"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-value">100%</span>
+                                    <span class="stat-title">EMI Recovery</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="about" class="about section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-5 align-items-center">
+
+                    <div class="col-xl-6 aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">
+                        <div class="about-images-wrapper">
+                            <div class="image-main">
+                                <img src="assets/img/about/about-5.webp" alt="Retailer confidence" class="img-fluid">
+                            </div>
+                            <div class="image-offset">
+                                <img src="assets/img/about/about-square-3.webp" alt="Mobile security" class="img-fluid">
+                            </div>
+                            <div class="experience-badge">
+                                <span class="years purecounter" data-purecounter-start="0" data-purecounter-end="100"
+                                    data-purecounter-duration="1">100</span>
+                                <span class="text">% Secure<br>Platform</span>
+                            </div>
+                            <div class="shape-pattern"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
+                        <div class="about-content">
+                            <div class="section-subtitle">What is Finexpey?</div>
+                            <h2>Retailers Ka Reliable Partner!</h2>
+                            <p class="lead-text">
+                                EMI Diligence ki Tension Khatam! Ab Finexpey ke sath retailers ko EMI verification ki
+                                koi fikar nahi. System sab kuch automatically handle karta hai.
+                            </p>
+                            <p class="mb-4 description">
+                                We provide a smart technology solution that guarantees a smooth experience and total
+                                peace of mind. Your team and investors will trust your financing system more—meaning
+                                less loss and maximum control over your financed devices.
+                            </p>
+
+                            <div class="features-grid">
+                                <div class="feature-card">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Smooth & Secure</span>
+                                </div>
+                                <div class="feature-card">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Offline Locking</span>
+                                </div>
+                                <div class="feature-card">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>AI Calling</span>
+                                </div>
+                                <div class="feature-card">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Anti-Theft</span>
+                                </div>
+                            </div>
+
+                            <div class="stats-row">
+                                <div class="stat-box">
+                                    <span class="number purecounter" data-purecounter-start="0"
+                                        data-purecounter-end="100" data-purecounter-duration="1">100</span>
+                                    <span class="label">% Compatibility</span>
+                                </div>
+                                <div class="stat-box">
+                                    <span class="number purecounter" data-purecounter-start="0"
+                                        data-purecounter-end="24" data-purecounter-duration="1">24</span>
+                                    <span class="label">Hour Control</span>
+                                </div>
+                                <div class="stat-box">
+                                    <span class="number purecounter" data-purecounter-start="0" data-purecounter-end="0"
+                                        data-purecounter-duration="1">0</span>
+                                    <span class="label">Internet Needed</span>
+                                </div>
+                            </div>
+
+                            <div class="action-buttons">
+                                <a href="#contact" class="btn btn-primary-custom">
+                                    Partner With Us <i class="bi bi-arrow-right"></i>
+                                </a>
+                                <div class="contact-info">
+                                    <div class="icon-box">
+                                        <i class="bi bi-telephone-fill"></i>
+                                    </div>
+                                    <div class="text">
+                                        <span>Call Us Today</span>
+                                        <a href="tel:+918451046739">+91 8451046739</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="why-us" class="why-us section light-background">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>About US</h2>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row g-5">
+                    <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+                        <div class="sidebar-content">
+                            <div class="badge-wrapper">
+                                <span class="section-badge"><i class="bi bi-stars"></i> Reliable & Secure</span>
+                            </div>
+
+                            <h2>Smart Technology for Seamless Financial Operations</h2>
+
+                            <p class="description">
+                                Finexpey delivers intelligent fintech solutions designed to simplify EMI management,
+                                enhance payment security, and streamline retail operations. Our platform ensures
+                                smooth performance, strong system reliability, and a hassle-free experience for both
+                                retailers and customers.
+                            </p>
+
+                            <div class="stat-cards">
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                                    <div class="stat-value">
+                                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="100"
+                                            data-purecounter-duration="2">99</span>%
+                                    </div>
+                                    <div class="stat-text">System Reliability</div>
+                                </div>
+
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="350">
+                                    <div class="stat-value">
+                                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="100"
+                                            data-purecounter-duration="2">98</span>%
+                                    </div>
+                                    <div class="stat-text">Secure Transactions</div>
+                                </div>
+
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                                    <div class="stat-value">
+                                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="100"
+                                            data-purecounter-duration="2">100</span>%
+                                    </div>
+                                    <div class="stat-text">User Satisfaction</div>
+                                </div>
+                            </div>
+
+                            <div class="action-buttons">
+                                <a href="#contact" class="btn-main">Get Started</a>
+                                <a href="#services" class="btn-outline">Explore Features</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+
+
+                        <div class="process-timeline" data-aos="fade-up" data-aos-delay="400">
+                            <div class="about-content">
+                                <p class="lead-text">
+                                    Finexpey, powered by Perfect Solution Co., is a next-generation technology platform
+                                    redefining EMI security, payment automation, and retail intelligence for modern
+                                    businesses.
+                                </p>
+                                <p class="mb-4 description">
+                                    Established on a strong foundation of industry expertise since 2019, our journey
+                                    began as a specialized OEM (White Label) technology provider, delivering robust and
+                                    scalable solutions to leading companies. This phase enabled us to master the
+                                    intricacies of financial technology, security infrastructure, and large-scale system
+                                    deployment.
+                                    <br><br>
+                                    In 2023, Finexpey emerged as an independent brand with a clear vision — to deliver
+                                    cutting-edge, secure, and future-ready solutions directly to retailers and partners
+                                    across the market. Our ecosystem is engineered to minimize financial risk, optimize
+                                    EMI lifecycle management, and enable seamless payment recovery through advanced
+                                    auto-debit (E-mandate) systems. Every solution we design reflects our commitment to
+                                    precision, reliability, and performance at scale.
+                                    <br><br>
+                                    At Finexpey, we go beyond conventional offerings by delivering distinctive,
+                                    market-leading solutions that set new benchmarks in security and efficiency —
+                                    empowering our partners with a level of confidence and control that few platforms
+                                    can match.
+                                    Driven by innovation, we are continuously evolving towards AI-powered intelligence,
+                                    predictive security, and next-generation retail technologies, ensuring our partners
+                                    stay ahead in a rapidly transforming digital economy.
+                                    <br><br>
+                                    Finexpey stands for trust, technology, and transformation — delivering not just
+                                    solutions, but a secure and scalable future for every partner.
+                                </p>
+
+                                <hr>
+
+                                <div class="mt-4">
+                                    <h4 style="color: #0d6efd;">🟦 Our Mission</h4>
+                                    <p><strong>Professional Version:</strong> “To empower retailers with smart, secure,
+                                        and reliable technology that simplifies EMI management, enables seamless
+                                        auto-debit (E-mandate) payment recovery, reduces financial risk, and ensures a
+                                        smooth and trustworthy customer experience.”</p>
+                                    <p><strong>Hinglish Version:</strong> “Retailers ko smart aur secure technology dena
+                                        jisse EMI management easy ho, auto debit (E-mandate) se payment recovery asaan
+                                        ho, risk kam ho aur customer experience smooth rahe — taaki business fast grow
+                                        kare.”</p>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h4 style="color: #fd7e14;">🟧 Our Vision</h4>
+                                    <p><strong>Professional Version:</strong> “To become India’s most trusted and
+                                        innovative EMI control platform, transforming how mobile and home appliance
+                                        retailers manage finance, payments, and customer security — while continuously
+                                        advancing with AI-driven solutions and next-generation security technologies.”
+                                    </p>
+                                    <p><strong>Hinglish Version:</strong> “India ka sabse trusted aur innovative EMI
+                                        control platform banna jo mobile aur home appliances retailers ke finance aur
+                                        payment system ko completely transform kare. Future me AI promoter aur AI-based
+                                        security ke saath hum aur bhi advanced solutions market me laate rahenge aur
+                                        innovation continue rakhenge.”</p>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="services" class="services section">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Finexpey 5.0 Plus</h2>
+                <p>Upgrade to the Next Level Security for your financed devices</p>
+            </div>
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-telephone-outbound"></i>
+                            </div>
+                            <h3>EMI Reminder Call</h3>
+                            <p>Customer ko har EMI due se pehle automatic calling reminder milta hai.</p>
+                            <a href="#" class="service-link">
+                                <span>Discover More</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-lock-fill"></i>
+                            </div>
+                            <h3>Auto Lock on EMI Due</h3>
+                            <p>EMI due hote hi device ka auto lock. Phones stay locked until the EMI is paid—simple and
+                                secure.</p>
+                            <a href="#" class="service-link">
+                                <span>Discover More</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card featured">
+                            <div class="featured-badge">
+                                <i class="bi bi-star-fill"></i>
+                                <span>Premium</span>
+                            </div>
+                            <div class="icon-wrapper">
+                                <i class="bi bi-wifi-off"></i>
+                            </div>
+                            <h3>Offline Auto Lock</h3>
+                            <p>Bina SIM aur bina internet ke bhi lock. Works anytime, anywhere, completely offline.</p>
+                            <a href="#" class="service-link">
+                                <span>Discover More</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-shield-exclamation"></i>
+                            </div>
+                            <h3>Anti-Theft Protection</h3>
+                            <p>Chori hote hi chor ki photo aur location bheje. Keep your devices safe from theft.</p>
+                            <a href="#" class="service-link">
+                                <span>Discover More</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-key"></i>
+                            </div>
+                            <h3>PIN/Password Reset</h3>
+                            <p>Customer bhool jaye toh Online/Offline password reset with ease.</p>
+                            <a href="#" class="service-link">
+                                <span>Discover More</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-credit-card"></i>
+                            </div>
+                            <h3>Auto Payment Debit</h3>
+                            <p>eMandate ke saath NPCI direct payment debit for automated EMI recovery.</p>
+                            <a href="#" class="service-link">
+                                <span>Discover More</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-row" data-aos="fade-up" data-aos-delay="400">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">EMI Recovery</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label">Device Control</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <span class="stat-number">0</span>
+                                <span class="stat-label">Stress</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Peace of Mind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="services" class="services section">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>🔥 Our Product Ecosystem</h2>
+                <p>Comprehensive solutions designed for maximum security and seamless payment recovery</p>
+            </div>
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-shield-lock-fill"></i>
+                            </div>
+                            <h3>1. EMI Device Security System</h3>
+                            <p>Advanced technology jo EMI par diye gaye mobile aur electronic devices ko secure karta
+                                hai.<br><br>
+                                👉 Payment default hone par device control<br>
+                                👉 Retailers ke liye risk protection<br>
+                                👉 Smart security integration
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-bank2"></i>
+                            </div>
+                            <h3>2. E-Mandate Auto Debit System</h3>
+                            <p>Seamless auto-debit solution jo EMI collection ko automated banata hai.<br><br>
+                                👉 Direct bank se payment collection<br>
+                                👉 Manual follow-up ki zarurat kam<br>
+                                👉 Better cash flow management
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-phone-vibrate"></i>
+                            </div>
+                            <h3>3. UPI Auto Debit Solution</h3>
+                            <p>Modern UPI-based auto payment system jo fast aur reliable EMI collection enable karta
+                                hai.<br><br>
+                                👉 UPI se instant mandate setup<br>
+                                👉 Customers ke liye easy & familiar process<br>
+                                👉 Payment success rate improve<br>
+                                👉 Digital-first collection system
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <h3>4. Smart Anti-Theft & Tracking</h3>
+                            <p>Mobile devices ke liye intelligent tracking aur protection system.<br><br>
+                                👉 Real-time tracking<br>
+                                👉 Remote lock & data safety<br>
+                                👉 Device recovery support
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-tv-fill"></i>
+                            </div>
+                            <h3>5. Appliance EMI Protection</h3>
+                            <p>Home appliances (TV, AC, Fridge) ke liye dedicated EMI security solution.<br><br>
+                                👉 High-value products secure<br>
+                                👉 Default risk control<br>
+                                👉 Retailers ke liye extra safety
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service-card">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-receipt-cutoff"></i>
+                            </div>
+                            <h3>6. Smart Billing & Retail Software</h3>
+                            <p>Retailers ke liye complete billing aur business management solution.<br><br>
+                                👉 Easy invoicing<br>
+                                👉 Customer & EMI record tracking<br>
+                                👉 Smooth daily operations
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                        <div class="service-card featured">
+                            <div class="featured-badge">
+                                <i class="bi bi-stars"></i>
+                                <span>Coming Soon</span>
+                            </div>
+                            <div class="icon-wrapper">
+                                <i class="bi bi-robot"></i>
+                            </div>
+                            <h3>7. AI-Based Security & Promotion</h3>
+                            <p>Next-gen AI tools jo security aur sales dono ko upgrade karenge.<br><br>
+                                👉 Smart fraud detection<br>
+                                👉 AI promoter for sales growth<br>
+                                👉 Future-ready technology
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Top Benefits</h2>
+                <p>Confident financing means you can sell more phones on EMI with zero stress</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
+                    <div class="filters-wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <ul class="portfolio-filters isotope-filters">
+                            <li data-filter="*" class="filter-active">All Benefits</li>
+                            <li data-filter=".filter-web">Security</li>
+                            <li data-filter=".filter-mobile">Control</li>
+                            <li data-filter=".filter-branding">Recovery</li>
+                            <li data-filter=".filter-ui">Trust</li>
+                        </ul>
+                    </div>
+
+                    <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <div class="project-card">
+                                <div class="image-wrapper">
+                                    <img src="assets/img/portfolio/portfolio-2.webp" alt="Recovery Benefit"
+                                        class="img-fluid" loading="lazy">
+                                    <div class="hover-overlay">
+                                        <div class="overlay-actions">
+                                            <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox action-btn"
+                                                data-gallery="portfolio"><i class="bi bi-eye"></i></a>
+                                            <a href="#" class="action-btn"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    <span class="category-badge">Recovery</span>
+                                </div>
+                                <div class="project-info">
+                                    <h3>Guaranteed EMI Recovery</h3>
+                                    <p>No more chasing customers. Phones stay locked until paid.</p>
+                                    <div class="project-meta">
+                                        <div class="tech-tags">
+                                            <span>Secure</span>
+                                            <span>Simple</span>
+                                        </div>
+                                        <span class="year">24/7</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+                            <div class="project-card featured">
+                                <div class="image-wrapper">
+                                    <img src="assets/img/portfolio/portfolio-4.webp" alt="Offline Benefit"
+                                        class="img-fluid" loading="lazy">
+                                    <div class="hover-overlay">
+                                        <div class="overlay-actions">
+                                            <a href="assets/img/portfolio/portfolio-4.webp" class="glightbox action-btn"
+                                                data-gallery="portfolio"><i class="bi bi-eye"></i></a>
+                                            <a href="#" class="action-btn"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    <span class="category-badge">Control</span>
+                                    <span class="featured-badge"><i class="bi bi-star-fill"></i> Essential</span>
+                                </div>
+                                <div class="project-info">
+                                    <h3>Works Without SIM</h3>
+                                    <p>Our system doesn't rely on connectivity. Works anytime offline.</p>
+                                    <div class="project-meta">
+                                        <div class="tech-tags">
+                                            <span>No Internet</span>
+                                            <span>Offline Lock</span>
+                                        </div>
+                                        <span class="year">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+                            <div class="project-card">
+                                <div class="image-wrapper">
+                                    <img src="assets/img/portfolio/portfolio-6.webp" alt="Control Benefit"
+                                        class="img-fluid" loading="lazy">
+                                    <div class="hover-overlay">
+                                        <div class="overlay-actions">
+                                            <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox action-btn"
+                                                data-gallery="portfolio"><i class="bi bi-eye"></i></a>
+                                            <a href="#" class="action-btn"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    <span class="category-badge">Control</span>
+                                </div>
+                                <div class="project-info">
+                                    <h3>24/7 Control Over Devices</h3>
+                                    <p>You stay in charge; lock or unlock devices remotely.</p>
+                                    <div class="project-meta">
+                                        <div class="tech-tags">
+                                            <span>Remote</span>
+                                            <span>Easy</span>
+                                        </div>
+                                        <span class="year">24/7</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+                            <div class="project-card">
+                                <div class="image-wrapper">
+                                    <img src="assets/img/portfolio/portfolio-8.webp" alt="Security Benefit"
+                                        class="img-fluid" loading="lazy">
+                                    <div class="hover-overlay">
+                                        <div class="overlay-actions">
+                                            <a href="assets/img/portfolio/portfolio-8.webp" class="glightbox action-btn"
+                                                data-gallery="portfolio"><i class="bi bi-eye"></i></a>
+                                            <a href="#" class="action-btn"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    <span class="category-badge">Security</span>
+                                </div>
+                                <div class="project-info">
+                                    <h3>Stop Device Misuse</h3>
+                                    <p>Customers can't sell, misuse, or reset the phone.</p>
+                                    <div class="project-meta">
+                                        <div class="tech-tags">
+                                            <span>Lockdown</span>
+                                            <span>Protection</span>
+                                        </div>
+                                        <span class="year">Safe</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                            <div class="project-card">
+                                <div class="image-wrapper">
+                                    <img src="assets/img/portfolio/portfolio-1.webp" alt="Trust Benefit"
+                                        class="img-fluid" loading="lazy">
+                                    <div class="hover-overlay">
+                                        <div class="overlay-actions">
+                                            <a href="assets/img/portfolio/portfolio-1.webp" class="glightbox action-btn"
+                                                data-gallery="portfolio"><i class="bi bi-eye"></i></a>
+                                            <a href="#" class="action-btn"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    <span class="category-badge">Trust</span>
+                                </div>
+                                <div class="project-info">
+                                    <h3>Boost Trust and Confidence</h3>
+                                    <p>Your team and investors will trust your system more.</p>
+                                    <div class="project-meta">
+                                        <div class="tech-tags">
+                                            <span>Less Loss</span>
+                                            <span>More Control</span>
+                                        </div>
+                                        <span class="year">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                            <div class="project-card">
+                                <div class="image-wrapper">
+                                    <img src="assets/img/portfolio/portfolio-3.webp" alt="Peace of mind"
+                                        class="img-fluid" loading="lazy">
+                                    <div class="hover-overlay">
+                                        <div class="overlay-actions">
+                                            <a href="assets/img/portfolio/portfolio-3.webp" class="glightbox action-btn"
+                                                data-gallery="portfolio"><i class="bi bi-eye"></i></a>
+                                            <a href="#" class="action-btn"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    <span class="category-badge">Trust</span>
+                                </div>
+                                <div class="project-info">
+                                    <h3>Peace of Mind = More Sales</h3>
+                                    <p>Sell more phones on EMI with zero stress.</p>
+                                    <div class="project-meta">
+                                        <div class="tech-tags">
+                                            <span>Confidence</span>
+                                            <span>Growth</span>
+                                        </div>
+                                        <span class="year">Sales</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-section" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="cta-content">
+                        <span class="cta-label"><i class="bi bi-lightning-charge-fill"></i> Ready to Secure Your
+                            Business?</span>
+                        <h3>Become a Finexpey Partner Today</h3>
+                        <p>Don't let EMI defaults slow down your sales. Lock bouncers and rock your business with our
+                            smart technology.</p>
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn-cta-primary">Contact Us Now <i
+                                    class="bi bi-arrow-right"></i></a>
+                            <a href="#services" class="btn-cta-secondary"><i class="bi bi-shield-check"></i> Explore
+                                Security</a>
+                        </div>
+                    </div>
+                    <div class="cta-decoration">
+                        <div class="floating-shape shape-1"></div>
+                        <div class="floating-shape shape-2"></div>
+                        <div class="floating-shape shape-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="why-us" class="why-us section light-background">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Finexpey 4.0 Plus</h2>
+                <p>Shocking Update for Retailers!</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row g-5">
+                    <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+                        <div class="sidebar-content">
+                            <div class="badge-wrapper">
+                                <span class="section-badge"><i class="bi bi-stars"></i> 100% Compatible</span>
+                            </div>
+                            <h2>Perfect Integration with Top Lenders</h2>
+                            <p class="description">Finexpey 4.0 Plus keys TVS, Bajaj, and HDB jaise lenders ke saath
+                                100% perfectly work karti hain. Key dalte hi customer ka phone bilkul normal kaam karta
+                                hai — koi error ya restriction nahi.</p>
+
+                            <div class="stat-cards">
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                                    <div class="stat-value">
+                                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="100"
+                                            data-purecounter-duration="2">100</span>%
+                                    </div>
+                                    <div class="stat-text">App Compatibility</div>
+                                </div>
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="350">
+                                    <div class="stat-value">
+                                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="100"
+                                            data-purecounter-duration="2">100</span>%
+                                    </div>
+                                    <div class="stat-text">GPS Functionality</div>
+                                </div>
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                                    <div class="stat-value">
+                                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="100"
+                                            data-purecounter-duration="2">100</span>%
+                                    </div>
+                                    <div class="stat-text">Customer Freedom</div>
+                                </div>
+                            </div>
+
+                            <div class="action-buttons">
+                                <a href="#contact" class="btn-main">Upgrade to 5.0 Plus</a>
+                                <a href="#services" class="btn-outline">View 5.0 Plus Features</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+                        <div class="features-grid">
+                            <div class="feature-box highlight" data-aos="fade-up" data-aos-delay="250">
+                                <div class="feature-ribbon">Full Freedom</div>
+                                <div class="feature-icon">
+                                    <i class="bi bi-fingerprint"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Fingerprint & Pattern Lock</h4>
+                                    <p>Customer ko fingerprint & pattern lock set karne ki full freedom milti hai
+                                        without any restrictions.</p>
+                                    <a href="#" class="feature-link">Discover How <i
+                                            class="bi bi-chevron-right"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="feature-box" data-aos="fade-up" data-aos-delay="300">
+                                <div class="feature-icon">
+                                    <i class="bi bi-usb-symbol"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Hardware Compatibility</h4>
+                                    <p>Finexpey completely supports OTG devices, ensuring smooth hardware operations for
+                                        the customer.</p>
+                                    <a href="#" class="feature-link">Discover How <i
+                                            class="bi bi-chevron-right"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="feature-box" data-aos="fade-up" data-aos-delay="350">
+                                <div class="feature-icon">
+                                    <i class="bi bi-lock"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Ultimatum Lock</h4>
+                                    <p>Zaroorat padne par special ultimatum lock for the toughest recovery situations.
+                                    </p>
+                                    <a href="#" class="feature-link">Discover How <i
+                                            class="bi bi-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="process-timeline" data-aos="fade-up" data-aos-delay="400">
+                            <h5 class="timeline-title"><i class="bi bi-diagram-3-fill"></i> Our Recovery Process</h5>
+                            <div class="timeline-steps">
+                                <div class="timeline-step">
+                                    <div class="step-marker">1</div>
+                                    <div class="step-info">
+                                        <strong>Reminder</strong>
+                                        <span>AI Call - 3 days before</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-connector"></div>
+                                <div class="timeline-step">
+                                    <div class="step-marker">2</div>
+                                    <div class="step-info">
+                                        <strong>EMI Due</strong>
+                                        <span>Payment deadline</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-connector"></div>
+                                <div class="timeline-step">
+                                    <div class="step-marker">3</div>
+                                    <div class="step-info">
+                                        <strong>Auto Lock</strong>
+                                        <span>Instant offline lockdown</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-connector"></div>
+                                <div class="timeline-step">
+                                    <div class="step-marker">4</div>
+                                    <div class="step-info">
+                                        <strong>Recovery</strong>
+                                        <span>Payment processed</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="capabilities-section" data-aos="fade-up" data-aos-delay="450">
+                            <h5 class="capabilities-heading">What We Bring to the Retailer</h5>
+                            <div class="capabilities-grid">
+                                <div class="capability-card">
+                                    <div class="capability-icon">
+                                        <i class="bi bi-shield-check"></i>
+                                    </div>
+                                    <h6>Tension-Free Financing</h6>
+                                    <p>System sab kuch automatically handle karta hai, EMI verification ki koi fikar
+                                        nahi.</p>
+                                </div>
+                                <div class="capability-card">
+                                    <div class="capability-icon">
+                                        <i class="bi bi-phone"></i>
+                                    </div>
+                                    <h6>Smooth Customer Device</h6>
+                                    <p>Key dalte hi phone bilkul normal kaam karta hai, sabhi apps aur GPS bhi chalte
+                                        hain.</p>
+                                </div>
+                                <div class="capability-card">
+                                    <div class="capability-icon">
+                                        <i class="bi bi-graph-up-arrow"></i>
+                                    </div>
+                                    <h6>Boost Your Sales</h6>
+                                    <p>Zero stress means confident financing, allowing you to scale your EMI business.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Testimonials</h2>
+                <p>Discover What Retailers Say About Finexpey</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right" data-aos-delay="150">
+                        <div class="testimonials-sidebar">
+                            <div class="avatar-stack">
+                                <img src="assets/img/person/person-m-3.webp" alt="Happy Client" class="avatar"
+                                    loading="lazy">
+                                <img src="assets/img/person/person-f-7.webp" alt="Happy Client" class="avatar"
+                                    loading="lazy">
+                                <img src="assets/img/person/person-m-9.webp" alt="Happy Client" class="avatar"
+                                    loading="lazy">
+                                <img src="assets/img/person/person-f-4.webp" alt="Happy Client" class="avatar"
+                                    loading="lazy">
+                                <span class="avatar-count">+2.5k</span>
+                            </div>
+                            <div class="sidebar-content">
+                                <span class="satisfied-badge"><i class="bi bi-heart-fill"></i> Satisfied
+                                    Retailers</span>
+                                <h3>Join Thousands of Confident Sellers</h3>
+                                <p>Retailers across the nation are growing their businesses with zero stress thanks to
+                                    our EMI protection system.</p>
+                                <a href="#" class="btn-view-all">View All Reviews <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8" data-aos="fade-left" data-aos-delay="200">
+                        <div class="testimonials-carousel swiper init-swiper">
+                            <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 700,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": 1,
+                  "spaceBetween": 24,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "breakpoints": {
+                    "768": {
+                      "slidesPerView": 2
+                    }
+                  }
+                }
+              </script>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="card-top">
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                            <span class="quote-mark"><i class="bi bi-quote"></i></span>
+                                        </div>
+                                        <p class="testimonial-text">Finexpey has completely removed the tension of EMI
+                                            diligence! The offline locking feature works flawlessly without needing
+                                            internet.</p>
+                                        <div class="author-info">
+                                            <img src="assets/img/person/person-f-2.webp" alt="Client" class="author-img"
+                                                loading="lazy">
+                                            <div class="author-details">
+                                                <h5>Aarav Mehta</h5>
+                                                <span>Mobile Retailer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="card-top">
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                            <span class="quote-mark"><i class="bi bi-quote"></i></span>
+                                        </div>
+                                        <p class="testimonial-text">I used to waste so much time chasing payments. Now
+                                            the AI reminder calls and auto-lock do the job for me. Sales are up 40%!</p>
+                                        <div class="author-info">
+                                            <img src="assets/img/person/person-m-5.webp" alt="Client" class="author-img"
+                                                loading="lazy">
+                                            <div class="author-details">
+                                                <h5>Siddharth Singh</h5>
+                                                <span>Electronics Store Owner</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="card-top">
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                            <span class="quote-mark"><i class="bi bi-quote"></i></span>
+                                        </div>
+                                        <p class="testimonial-text">The compatibility with TVS and Bajaj Finance is
+                                            perfect. My customers are happy because their phones work smoothly, and I'm
+                                            secure.</p>
+                                        <div class="author-info">
+                                            <img src="assets/img/person/person-f-9.webp" alt="Client" class="author-img"
+                                                loading="lazy">
+                                            <div class="author-details">
+                                                <h5>Priya Sharma</h5>
+                                                <span>Finance Manager</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="card-top">
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                            <span class="quote-mark"><i class="bi bi-quote"></i></span>
+                                        </div>
+                                        <p class="testimonial-text">When a device was stolen, the Anti-Theft Protection
+                                            instantly sent a photo and location. This system is a lifesaver for our
+                                            inventory.</p>
+                                        <div class="author-info">
+                                            <img src="assets/img/person/person-m-11.webp" alt="Client"
+                                                class="author-img" loading="lazy">
+                                            <div class="author-details">
+                                                <h5>Vikram Patel</h5>
+                                                <span>Multi-Brand Dealer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="team section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Trusted Financing Partners</h2>
+                <p>100% Compatible with the industry's leading lenders</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-card">
+                            <div class="member-img">
+                                <img src="assets/img/portfolio/portfolio-1.webp" class="img-fluid" alt="Partner">
+                            </div>
+                            <div class="member-info">
+                                <span class="member-badge">Partner</span>
+                                <h4>TVS Finance</h4>
+                                <p>Fully Integrated</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="team-card">
+                            <div class="member-img">
+                                <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="Partner">
+                            </div>
+                            <div class="member-info">
+                                <span class="member-badge">Partner</span>
+                                <h4>Bajaj Finance</h4>
+                                <p>Fully Integrated</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="team-card featured">
+                            <div class="member-img">
+                                <img src="assets/img/portfolio/portfolio-3.webp" class="img-fluid"
+                                    alt="Finexpey System">
+                            </div>
+                            <div class="member-info">
+                                <span class="member-badge">Core</span>
+                                <h4>Finexpey 5.0 Plus</h4>
+                                <p>Auto Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="team-card">
+                            <div class="member-img">
+                                <img src="assets/img/portfolio/portfolio-4.webp" class="img-fluid" alt="Partner">
+                            </div>
+                            <div class="member-info">
+                                <span class="member-badge">Partner</span>
+                                <h4>HDB Finance</h4>
+                                <p>Fully Integrated</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-stats" data-aos="fade-up" data-aos-delay="500">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="stats-wrapper">
+                                <div class="stat-item">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-label">Compatibility</span>
+                                </div>
+                                <div class="stat-divider"></div>
+                                <div class="stat-item">
+                                    <span class="stat-number">0</span>
+                                    <span class="stat-label">Errors</span>
+                                </div>
+                                <div class="stat-divider"></div>
+                                <div class="stat-item">
+                                    <span class="stat-number">24</span>
+                                    <span class="stat-label">Hour Access</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact Us</h2>
+                <p>Become a Finexpey Partner Today and Secure Your Retail Business</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-5 align-items-stretch">
+                    <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+                        <div class="info-panel">
+                            <div class="panel-header">
+                                <span class="section-badge">
+                                    <i class="bi bi-chat-dots-fill"></i>
+                                    Get In Touch
+                                </span>
+                                <h3>Let's Secure Your Sales</h3>
+                                <p>Stop device misuse and prevent EMI defaults. Our team is ready to onboard you to the
+                                    industry's best recovery system.</p>
+                            </div>
+
+                            <div class="contact-methods">
+                                <div class="method-item">
+                                    <div class="method-icon">
+                                        <i class="bi bi-envelope-paper-fill"></i>
+                                    </div>
+                                    <div class="method-details">
+                                        <span class="method-label">Email Us</span>
+                                        <a href="mailto:support@finexpey.com">support@finexpey.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="method-item">
+                                    <div class="method-icon">
+                                        <i class="bi bi-headset"></i>
+                                    </div>
+                                    <div class="method-details">
+                                        <span class="method-label">Call Us</span>
+                                        <a href="tel:+918451046739">8451046739</a> <br>
+                                        <a href="tel:+917533870506">7533870506</a> <br>
+                                        <a href="tel:+917017707171">7017707171</a>
+                                    </div>
+                                </div>
+
+                                <div class="method-item">
+                                    <div class="method-icon">
+                                        <i class="bi bi-pin-map-fill"></i>
+                                    </div>
+                                    <div class="method-details">
+                                        <span class="method-label">Headquarters</span>
+                                        <span>India</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stats-strip">
+                                <div class="stat-item">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-text">Satisfaction</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">24/7</span>
+                                    <span class="stat-text">Support</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">Offline</span>
+                                    <span class="stat-text">Reliability</span>
+                                </div>
+                            </div>
+
+                            <div class="social-connect">
+                                <span>Follow Us</span>
+                                <div class="social-icons">
+                                    <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                                    <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+                        <div class="form-card">
+                            <div class="form-card-header">
+                                <div class="header-icon">
+                                    <i class="bi bi-send-fill"></i>
+                                </div>
+                                <div class="header-text">
+                                    <h4>Request a Demo</h4>
+                                    <p>Fill out the form to see Finexpey in action.</p>
+                                </div>
+                            </div>
+
+                            <!-- PREMIUM CONTACT FORM -->
+<form id="contactForm" class="premium-form">
+
+  <div class="form-grid">
+
+    <div class="form-group">
+      <label>Your Name</label>
+      <div class="input-box">
+        <i class="bi bi-person"></i>
+        <input type="text" name="name" placeholder="John Doe" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Email Address</label>
+      <div class="input-box">
+        <i class="bi bi-envelope"></i>
+        <input type="email" name="email" placeholder="john@example.com" required>
+      </div>
+    </div>
+
+    <div class="form-group full-width">
+      <label>Subject</label>
+      <div class="input-box">
+        <i class="bi bi-chat-square-text"></i>
+        <input type="text" name="subject" placeholder="How can we help?" required>
+      </div>
+    </div>
+
+    <div class="form-group full-width">
+      <label>Your Message</label>
+      <div class="input-box textarea-box">
+        <i class="bi bi-pencil-square"></i>
+        <textarea name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="form-footer">
+    <div class="status">
+      <span class="loading">Sending...</span>
+      <span class="success">Message ready on WhatsApp ✔</span>
+    </div>
+
+    <button type="submit" class="btn-submit">
+      <span>Send Message</span>
+      <i class="bi bi-arrow-right-circle-fill"></i>
+    </button>
+
+    <div class="secure">
+      <i class="bi bi-shield-lock"></i>
+      <span>Secure • No data stored</span>
+    </div>
+  </div>
+
+</form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer light-background">
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-6 footer-info">
+                    <a href="index.html" class="logo d-flex align-items-center mb-4">
+                        <span class="sitename">Finexpey</span>
+                    </a>
+                    <p>Payments Make Easy. The industry's top solution for EMI auto locking and retail security. Earn
+                        more, risk less.</p>
+
+                    <div class="social-links d-flex mt-4">
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Features</h4>
+                    <ul>
+                        <li><a href="#services">Offline Locking</a></li>
+                        <li><a href="#services">AI Calling</a></li>
+                        <li><a href="#services">Auto Payment Debit</a></li>
+                        <li><a href="#services">Anti-Theft</a></li>
+                        <li><a href="#services">Ultimatum Lock</a></li>
+                        <li><a href="#services">App Compatibility</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#contact">Contact Support</a></li>
+                        <li><a href="#">Setup Guides</a></li>
+                        <li><a href="#">Lender Integrations</a></li>
+                        <li><a href="#">Password Recovery</a></li>
+                        <li><a href="#">Partner Portal</a></li>
+                        <li><a href="#">Knowledge Base</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Finexpey</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Retailer Success Stories</a></li>
+                        <li><a href="#">API Documentation</a></li>
+                        <li><a href="#">System Status</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-newsletter">
+                        <h4>Stay Updated</h4>
+                        <p>Subscribe to our newsletter for exclusive Finexpey feature updates and EMI business tips.</p>
+                        <form action="forms/newsletter.php" method="post" class="php-email-form">
+                            <div class="position-relative">
+                                <input type="email" name="email" placeholder="Your Email" required="">
+                                <button type="submit" class="btn-subscribe"><i class="bi bi-arrow-right"></i></button>
+                            </div>
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <div class="row gy-3">
+                <div class="col-md-6 order-2 order-md-1">
+                    <div class="copyright">
+                        <p>© <span>Copyright</span> <strong class="sitename">Finexpey</strong>. All Rights Reserved.</p>
+                    </div>
+                    <div class="credits">
+                        Designed by <a href="https://iamanasansari.space/">Anas Ansari</a> | <a href="#">Perfect
+                            Solutions</a>
+                    </div>
+                </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <div class="legal-links">
+                        <a href="tos.html">Terms of Service</a>
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="privacy.html">Device Compliance</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const loading = document.querySelector(".loading");
+  const success = document.querySelector(".success");
+
+  loading.style.display = "inline";
+
+  let name = document.querySelector('[name="name"]').value.trim();
+  let email = document.querySelector('[name="email"]').value.trim();
+  let subject = document.querySelector('[name="subject"]').value.trim();
+  let message = document.querySelector('[name="message"]').value.trim();
+
+  let phoneNumber = "917017707171"; // replace
+
+  let text = `🚀 *New Inquiry* \n\n👤 Name: ${name}\n📧 Email: ${email}\n📌 Subject: ${subject}\n💬 Message: ${message}`;
+  let encodedText = encodeURIComponent(text);
+
+  let isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  let url = isMobile
+    ? `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedText}`
+    : `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodedText}`;
+
+  setTimeout(() => {
+    loading.style.display = "none";
+    success.style.display = "inline";
+
+    window.open(url, "_blank");
+
+    document.getElementById("contactForm").reset();
+  }, 800);
+});
+</script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
